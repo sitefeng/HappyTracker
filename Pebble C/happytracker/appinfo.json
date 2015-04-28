@@ -1,0 +1,45 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "fengsite@hotmail.com",
+    "longName": "HappyTracker",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/line.png",
+                "name": "kLine",
+                "type": "png"
+            },
+            {
+                "file": "images/crossWhite.png",
+                "name": "kCrossWhite",
+                "type": "png"
+            },
+            {
+                "file": "images/equalWhite.png",
+                "name": "kEqualWhite",
+                "type": "png"
+            },
+            {
+                "file": "images/checkWhite.png",
+                "name": "kCheckWhite",
+                "type": "png"
+            },
+            {
+                "file": "images/skyline.png",
+                "name": "kSkyline",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "HappyTracker",
+    "uuid": "385233be-d6aa-43a9-8a3a-26500e384a8c",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

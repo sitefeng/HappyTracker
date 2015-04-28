@@ -15,10 +15,34 @@
 @implementation AppDelegate
 
 
+
+
+#pragma mark - PBPebbleCentralDelegates
+
+- (void)pebbleCentral:(PBPebbleCentral *)central watchDidConnect:(PBWatch *)watch isNew:(BOOL)isNew
+{
+    NSLog(@"Watch Connected");
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"PBPebbleDidConnectNotification" object:self];
+}
+
+
+
+
+#pragma mark - Application Life Cycle
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[PBPebbleCentral defaultCentral] setDelegate:self];
+    
+    self.pebble = [[PBPebbleCentral defaultCentral] lastConnectedWatch];
+    NSLog(@"Last connected watch: %@", self.pebble);
+    
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

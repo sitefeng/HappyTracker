@@ -15,6 +15,15 @@
 		442EE5201A5CBF170002C597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442EE51F1A5CBF170002C597 /* Images.xcassets */; };
 		442EE5231A5CBF170002C597 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EE5211A5CBF170002C597 /* LaunchScreen.xib */; };
 		442EE52F1A5CBF170002C597 /* HappyTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EE52E1A5CBF170002C597 /* HappyTrackerTests.m */; };
+		442EE53D1A5CC6A50002C597 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE53C1A5CC6A50002C597 /* ExternalAccessory.framework */; };
+		442EE53F1A5CC6AF0002C597 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE53E1A5CC6AF0002C597 /* libz.dylib */; };
+		442EE5411A5CC6B60002C597 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE5401A5CC6B60002C597 /* CoreBluetooth.framework */; };
+		442EE5431A5CC6BD0002C597 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE5421A5CC6BD0002C597 /* CoreMotion.framework */; };
+		442EE5451A5CC6C80002C597 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE5441A5CC6C80002C597 /* CFNetwork.framework */; };
+		442EE5471A5CC6CF0002C597 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE5461A5CC6CF0002C597 /* MessageUI.framework */; };
+		442EE5481A5DB1260002C597 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE5381A5CC6870002C597 /* PebbleKit.framework */; };
+		442EE5491A5DB1380002C597 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EE5391A5CC6870002C597 /* PebbleVendor.framework */; };
+		442EE54D1A5DE65C0002C597 /* NSDate+HNConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EE54C1A5DE65C0002C597 /* NSDate+HNConvenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,17 @@
 		442EE5281A5CBF170002C597 /* HappyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442EE52D1A5CBF170002C597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442EE52E1A5CBF170002C597 /* HappyTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyTrackerTests.m; sourceTree = "<group>"; };
+		442EE5381A5CC6870002C597 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
+		442EE5391A5CC6870002C597 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		442EE53C1A5CC6A50002C597 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		442EE53E1A5CC6AF0002C597 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		442EE5401A5CC6B60002C597 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		442EE5421A5CC6BD0002C597 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		442EE5441A5CC6C80002C597 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		442EE5461A5CC6CF0002C597 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		442EE54A1A5DB2080002C597 /* HappyTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HappyTracker.entitlements; sourceTree = "<group>"; };
+		442EE54B1A5DE65C0002C597 /* NSDate+HNConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HNConvenience.h"; sourceTree = "<group>"; };
+		442EE54C1A5DE65C0002C597 /* NSDate+HNConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HNConvenience.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442EE5491A5DB1380002C597 /* PebbleVendor.framework in Frameworks */,
+				442EE5481A5DB1260002C597 /* PebbleKit.framework in Frameworks */,
+				442EE5471A5CC6CF0002C597 /* MessageUI.framework in Frameworks */,
+				442EE5451A5CC6C80002C597 /* CFNetwork.framework in Frameworks */,
+				442EE5431A5CC6BD0002C597 /* CoreMotion.framework in Frameworks */,
+				442EE5411A5CC6B60002C597 /* CoreBluetooth.framework in Frameworks */,
+				442EE53F1A5CC6AF0002C597 /* libz.dylib in Frameworks */,
+				442EE53D1A5CC6A50002C597 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,8 +111,11 @@
 		442EE50E1A5CBF170002C597 /* HappyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				442EE54A1A5DB2080002C597 /* HappyTracker.entitlements */,
 				442EE5131A5CBF170002C597 /* AppDelegate.h */,
 				442EE5141A5CBF170002C597 /* AppDelegate.m */,
+				442EE54B1A5DE65C0002C597 /* NSDate+HNConvenience.h */,
+				442EE54C1A5DE65C0002C597 /* NSDate+HNConvenience.m */,
 				442EE5191A5CBF170002C597 /* ViewController.h */,
 				442EE51A1A5CBF170002C597 /* ViewController.m */,
 				442EE51C1A5CBF170002C597 /* Main.storyboard */,
@@ -99,6 +130,14 @@
 		442EE50F1A5CBF170002C597 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				442EE5461A5CC6CF0002C597 /* MessageUI.framework */,
+				442EE5441A5CC6C80002C597 /* CFNetwork.framework */,
+				442EE5421A5CC6BD0002C597 /* CoreMotion.framework */,
+				442EE5401A5CC6B60002C597 /* CoreBluetooth.framework */,
+				442EE53E1A5CC6AF0002C597 /* libz.dylib */,
+				442EE53C1A5CC6A50002C597 /* ExternalAccessory.framework */,
+				442EE5381A5CC6870002C597 /* PebbleKit.framework */,
+				442EE5391A5CC6870002C597 /* PebbleVendor.framework */,
 				442EE5101A5CBF170002C597 /* Info.plist */,
 				442EE5111A5CBF170002C597 /* main.m */,
 			);
@@ -171,6 +210,7 @@
 				TargetAttributes = {
 					442EE50B1A5CBF170002C597 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 52GHE2Q332;
 					};
 					442EE5271A5CBF170002C597 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -222,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442EE54D1A5DE65C0002C597 /* NSDate+HNConvenience.m in Sources */,
 				442EE5151A5CBF170002C597 /* AppDelegate.m in Sources */,
 				442EE5121A5CBF170002C597 /* main.m in Sources */,
 				442EE51B1A5CBF170002C597 /* ViewController.m in Sources */,
@@ -347,9 +388,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HappyTracker/HappyTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyTracker",
+				);
 				INFOPLIST_FILE = HappyTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +407,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HappyTracker/HappyTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyTracker",
+				);
 				INFOPLIST_FILE = HappyTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +475,7 @@
 				442EE5341A5CBF170002C597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		442EE5351A5CBF170002C597 /* Build configuration list for PBXNativeTarget "HappyTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +484,7 @@
 				442EE5371A5CBF170002C597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

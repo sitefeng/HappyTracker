@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PebbleKit/PebbleKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <PBDataLoggingServiceDelegate>
+{
+    PBWatch* pebble;
+    NSInteger sessionNum;
+}
 
+@property (weak, nonatomic) IBOutlet UITextView *mainTextView;
+@property (nonatomic,strong) NSMutableString* historyString;
+
+
+- (IBAction)getDataButton:(UIButton *)sender;
 
 @end
 
